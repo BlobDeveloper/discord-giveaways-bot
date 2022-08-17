@@ -55,6 +55,7 @@ npm i && node .
 ### Reroll Giveaway
 ![](./assets/giveawayReroll.png)
 
-If you like this project, support it with a star\n
-Did you find a bug?\n
-Please create an issue at https://github.com/BlobDeveloper/discord-giveaways-bot/issues
+If you like this project, support it with a star<br><br>
+
+Did you find a bug?<br>
+Please create an issue! https://github.com/BlobDeveloper/discord-giveaways-bot/issues
