@@ -23,7 +23,6 @@ module.exports = (client) => {
     });
 
     client.on('ready', () => {
-        client.guilds.cache.get('891557910767874139').commands.set(CommandsArray);
-        //client.application.commands.set(CommandsArray);
+        client.application.commands.set(CommandsArray);
     });
 }
