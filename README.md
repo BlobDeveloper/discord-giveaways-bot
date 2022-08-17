@@ -68,7 +68,9 @@ npm i && node .
 ![](./assets/giveawayEnded.png)
 - And much more!
 
-If you like this project, support it with a star<br><br>
+<br>
+If you like this project, support it with a star<br>
+<br>
 
 Did you find a bug?<br>
 Please create an issue! https://github.com/BlobDeveloper/discord-giveaways-bot/issues
