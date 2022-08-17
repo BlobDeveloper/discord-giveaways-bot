@@ -6,6 +6,10 @@ module.exports = {
         playing: 'giveaways 🎉',
         // Database URL from https://mongodb.com/
         mongodb: 'XXX',
+        // If you only want to have slash commands for one guild, leave false.
+        globalCommands: false,
+        // If you chose false above, put the guild id where you want to have slash commands.
+        slashGuild: 'XXX'
     },
 
     giveawayManager : {
@@ -17,6 +21,8 @@ module.exports = {
         reaction: '🎉'
     },
 
+    // You can leave it as it is here by default.
+    // Don't change things in {} brackets like {winners}, ...
     messages: {
         giveaway: '🎉 **Giveaway**',
         giveawayEnded: '🎉 **Giveaway Ended**',

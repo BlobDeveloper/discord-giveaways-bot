@@ -23,6 +23,12 @@ module.exports = (client) => {
     });
 
     client.on('ready', () => {
-        client.application.commands.set(CommandsArray);
+        if(client.config.app.globalCommands) {
+            client.application.commands.set(CommandsArray);
+        } else {
+            const guild = client.guilds.cache.get(client.config.app.slashGuild);
+            if(!guild) return console.log(`[COMMANDS]`.red + ` The guild you specified in the config was not found.`);
+            else guild.commands.set(CommandsArray);
+        }
     });
 }
