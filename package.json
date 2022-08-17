@@ -1,0 +1,34 @@
+{
+  "name": "discord-giveaway-bot",
+  "version": "1.0.0",
+  "description": "Cool discord for giveaways on your discord server written in Discord.JS v14, discord-giveaways v6 and using custom handlers.",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlobDeveloper/discord-giveaway-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discordjs",
+    "discord-giveaway-bot",
+    "discord-giveaway",
+    "giveawaybot",
+    "giveaways"
+  ],
+  "author": "BlobDev#2388",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlobDeveloper/discord-giveaway-bot/issues"
+  },
+  "homepage": "https://github.com/BlobDeveloper/discord-giveaway-bot#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord-giveaways": "^6.0.1",
+    "discord.js": "^14.2.0",
+    "mongoose": "^6.5.2",
+    "ms": "^2.1.3"
+  }
+}
