@@ -26,6 +26,7 @@ npm i && node .
 - Latest Discord.JS version
 - Custom Handlers
 - Slash Commands
+- Giveaway events such as joining a contest, leaving a giveaway, winning a giveaway, etc. (The bot sends a private message about these events to the reaction member.)
 
 # Commands
 
@@ -54,6 +55,18 @@ npm i && node .
 
 ### Reroll Giveaway
 ![](./assets/giveawayReroll.png)
+- And much more!
+
+# Events
+### Enter Giveaway
+![](./assets/giveawayEnter.png)
+
+### Leave from Giveaway
+![](./assets/giveawayLeave.png)
+
+### Enter ended Giveaway
+![](./assets/giveawayEnded.png)
+- And much more!
 
 If you like this project, support it with a star<br><br>
 

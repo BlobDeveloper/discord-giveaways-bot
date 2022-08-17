@@ -13,6 +13,9 @@ module.exports = {
     },
 
     giveawayManager : {
+        //Private Message Information.
+        //If you set false, the bot will not send private message information to members who join the giveaway, for example.
+        privateMessageInformation: true,
         // Role ID which will be able to create giveaways
         giveawaysManagerRole: 'XXX',
         // When a giveaway is created the bot pings everyone (true or false)

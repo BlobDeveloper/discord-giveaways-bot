@@ -9,7 +9,7 @@ const client = new Client({
 client.config = require('./config');
 client.commands = new Collection();
 
-['commandHandler', 'eventsHandler', 'giveawaysManager'].forEach((x) => {
+['commandHandler', 'eventsHandler', 'giveawaysManager', 'giveawaysEventsHandler'].forEach((x) => {
     require(`./Util/${x}`)(client);
 });
 
