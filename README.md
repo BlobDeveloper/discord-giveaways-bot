@@ -1,76 +1,32 @@
-# Giveaway Bot
-#### Cool discord for giveaways on your discord server written in Discord.JS v14, discord-giveaways v6 and using custom handlers. Easy to setup. 
+# 🎉 Giveaway Bot
 
-# Requirements
-- [Node.JS](https://nodejs.org) v16+
-- [Computer](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+> A simple and modern Discord bot for running giveaways on your server.  
+> Built with **Discord.JS v14**, **discord-giveaways v6**, and **custom handlers**.  
 
-# Configuration
-- Download [CODE](https://github.com/BlobDeveloper/discord-giveaway-bot/archive/refs/heads/main.zip)
-- Open `config.js` file in `src` folder
-- Change things that are required
-- That's it, then open project in terminal and type 
-```
-npm i && node .
-```
+⚠️ **Note:** This bot hasn’t been updated for a while, but it still works perfectly fine!  
 
-# Links
-- 🔗 [Discord Developers Portal](https://discord.com/developers/)
-- 🔗 [MongoDB](https://mongodb.com/)
+---
 
-# Features
-- Complete code ready to work properly
-- Bot uses MongoDB database to store data and not JSON
-- Free
-- Customizable
-- Latest Discord.JS version
-- Custom Handlers
-- Slash Commands
-- Giveaway events such as joining a contest, leaving a giveaway, winning a giveaway, etc. (The bot sends a private message about these events to the reaction member.)
+## ✨ Features
+- ✅ Ready-to-use giveaway system
+- ✅ MongoDB support (no JSON files!)
+- ✅ Slash commands
+- ✅ Customizable & free
+- ✅ Custom handlers
+- ✅ Giveaway events (join, leave, win, etc. with private messages)
+- ✅ Built with the Discord.JS v14
 
-# Commands
+---
 
-### Info:
-- help
-- ping
+## 📦 Requirements
+- [Node.js](https://nodejs.org) **v16+**
+- A computer ([definitely this one](https://www.youtube.com/watch?v=dQw4w9WgXcQ))
 
-### Giveaways:
-- start
-- pause
-- unpause
-- end
-- reroll
-- delete
+---
 
-# Preview
-
-#### Start Giveaway
-![](./assets//giveawayStart.png)
-
-#### Pause Giveaway
-![](./assets/giveawayPause.png)
-
-#### End Giveaway
-![](./assets/giveawayEnd.png)
-
-### Reroll Giveaway
-![](./assets/giveawayReroll.png)
-- And much more!
-
-# Events
-### Enter Giveaway
-![](./assets/giveawayEnter.png)
-
-### Leave from Giveaway
-![](./assets/giveawayLeave.png)
-
-### Enter ended Giveaway
-![](./assets/giveawayEnded.png)
-- And much more!
-
-<br>
-If you like this project, support it with a star<br>
-<br>
-
-Did you find a bug?<br>
-Please create an issue! https://github.com/BlobDeveloper/discord-giveaways-bot/issues
+## ⚙️ Setup & Configuration
+1. [Download the code](https://github.com/BlobDeveloper/discord-giveaway-bot/archive/refs/heads/main.zip)
+2. Open the project and edit `src/config.js` with your details
+3. Install dependencies and run the bot:
+   ```bash
+   npm i && node .
