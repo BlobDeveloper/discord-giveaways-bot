@@ -28,7 +28,7 @@
     "colors": "^1.4.0",
     "discord-giveaways": "^6.0.1",
     "discord.js": "^14.2.0",
-    "mongoose": "^6.5.2",
+    "mongoose": "^9.11.4",
     "ms": "^2.1.3"
   }
 }
